@@ -5,9 +5,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* About */}
           <div>
-            <h3 className="font-heading text-base font-bold mb-2 uppercase tracking-wide">Mama's Luncheonette</h3>
+            <h3 className="font-heading text-xl font-bold mb-2 uppercase tracking-wide">Mama's Luncheonette</h3>
             <div className="h-0.5 w-12 bg-tomato-red mb-3"></div>
-            <p className="text-diner-white/80 text-xs leading-relaxed">
+            <p className="text-diner-white/80 text-base leading-relaxed">
               Your neighborhood comfort food spot in San Francisco's Marina district.
               Serving breakfast, brunch, and wraps with love since day one.
             </p>
@@ -15,9 +15,9 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-heading text-base font-bold mb-2 uppercase tracking-wide">Quick Links</h3>
+            <h3 className="font-heading text-xl font-bold mb-2 uppercase tracking-wide">Quick Links</h3>
             <div className="h-0.5 w-12 bg-tomato-red mb-3"></div>
-            <ul className="space-y-1.5 text-xs">
+            <ul className="space-y-1.5 text-base">
               <li>
                 <a href="#menu" className="text-diner-white/80 hover:text-tomato-red transition-colors">
                   ★ Menu
@@ -48,9 +48,9 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-heading text-base font-bold mb-2 uppercase tracking-wide">Visit Us</h3>
+            <h3 className="font-heading text-xl font-bold mb-2 uppercase tracking-wide">Visit Us</h3>
             <div className="h-0.5 w-12 bg-tomato-red mb-3"></div>
-            <div className="text-diner-white/80 text-xs space-y-2">
+            <div className="text-diner-white/80 text-base space-y-2">
               <p>
                 3006 Buchanan St<br />
                 San Francisco, CA 94123
@@ -60,7 +60,7 @@ export default function Footer() {
                   href="https://www.doordash.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-tomato-red border-2 border-diner-white text-diner-white px-4 py-1.5 font-bold text-xs hover:bg-diner-white hover:text-charcoal transition-all uppercase tracking-wide"
+                  className="inline-block bg-tomato-red border-2 border-diner-white text-diner-white px-4 py-1.5 font-bold text-base hover:bg-diner-white hover:text-charcoal transition-all uppercase tracking-wide"
                 >
                   Order Pickup
                 </a>
@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar with retro pattern */}
-        <div className="border-t-2 border-tomato-red mt-6 pt-6 text-center text-xs text-diner-white/70">
+        <div className="border-t-2 border-tomato-red mt-6 pt-6 text-center text-base text-diner-white/70">
           <p className="uppercase tracking-wider">&copy; {new Date().getFullYear()} Mama's Luncheonette • All rights reserved</p>
           <p className="mt-1">★ Halal • Breakfast & Brunch • Wraps • Sandwiches ★</p>
         </div>

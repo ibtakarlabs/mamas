@@ -16,8 +16,8 @@ const config: Config = {
         'accent-mustard': '#F4A259',
       },
       fontFamily: {
-        'heading': ['var(--font-fredoka)', 'system-ui', 'sans-serif'],
-        'body': ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        'heading': ['var(--font-truculenta)', 'system-ui', 'sans-serif'],
+        'body': ['var(--font-truculenta)', 'system-ui', 'sans-serif'],
       },
     },
   },

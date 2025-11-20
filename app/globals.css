@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wdth,wght@12..72,75..125,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
-
 :root {
-  --font-fredoka: 'Fredoka', sans-serif;
-  --font-inter: 'Inter', sans-serif;
+  --font-truculenta: 'Truculenta', sans-serif;
 }
 
 body {
-  font-family: var(--font-inter);
+  font-family: var(--font-truculenta);
   color: #1F1F1F;
   background-color: #FFF6EB;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Height of fixed navbar (h-20 = 80px) */
 }
 
 /* Paper texture overlay for diner vibe */

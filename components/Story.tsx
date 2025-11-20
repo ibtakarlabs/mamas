@@ -5,7 +5,7 @@ export default function Story() {
         {/* Diner menu board style */}
         <div className="bg-diner-white border-4 border-charcoal shadow-xl p-6 md:p-8">
           <div className="border-2 border-charcoal/20 p-6">
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-charcoal mb-1 uppercase tracking-tight">
+            <h2 className="font-heading text-5xl md:text-6xl font-bold text-charcoal mb-1 uppercase tracking-tight">
               Our Story
             </h2>
 
@@ -15,7 +15,7 @@ export default function Story() {
               <div className="h-1 w-8 bg-charcoal"></div>
             </div>
 
-            <div className="space-y-3 text-sm md:text-base text-charcoal leading-relaxed">
+            <div className="space-y-3 text-lg md:text-xl text-charcoal leading-relaxed">
               <p>
                 Welcome to Mama's Luncheonette, where comfort meets community in the heart of San Francisco's Marina district.
               </p>
@@ -28,7 +28,7 @@ export default function Story() {
                 From our viral Chicken Caesar Wrap to our 12-hour Braised Lamb Flatbread, everything we make is crafted with care and quality ingredients. No fuss, no frills—just honest, delicious food that feels like home.
               </p>
 
-              <p className="font-bold text-tomato-red text-base md:text-lg pt-3 uppercase tracking-wide">
+              <p className="font-bold text-tomato-red text-xl md:text-2xl pt-3 uppercase tracking-wide">
                 ★ Come hungry. Leave happy. ★
               </p>
             </div>

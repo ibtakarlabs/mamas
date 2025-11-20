@@ -62,20 +62,20 @@ export default function Hero() {
               />
             </div>
 
-            <p className="font-body text-lg md:text-xl text-diner-white/95 mb-8 max-w-2xl mx-auto drop-shadow-md">
+            <p className="font-body text-xl md:text-2xl text-diner-white/95 mb-8 max-w-2xl mx-auto drop-shadow-md">
               Fresh wraps, breakfast burritos & halal comfort food
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="#menu"
-                className="bg-tomato-red border-3 border-charcoal text-diner-white px-8 py-3 rounded font-bold text-lg hover:bg-diner-white hover:text-tomato-red transition-all shadow-xl uppercase tracking-wide"
+                className="bg-tomato-red border-3 border-charcoal text-diner-white px-8 py-3 rounded font-bold text-xl hover:bg-diner-white hover:text-tomato-red transition-all shadow-xl uppercase tracking-wide"
               >
                 View Menu
               </a>
               <a
                 href="#location"
-                className="bg-diner-white border-3 border-charcoal text-charcoal px-8 py-3 rounded font-bold text-lg hover:bg-tomato-red hover:text-diner-white hover:border-diner-white transition-all shadow-xl uppercase tracking-wide"
+                className="bg-diner-white border-3 border-charcoal text-charcoal px-8 py-3 rounded font-bold text-xl hover:bg-tomato-red hover:text-diner-white hover:border-diner-white transition-all shadow-xl uppercase tracking-wide"
               >
                 Visit Us
               </a>

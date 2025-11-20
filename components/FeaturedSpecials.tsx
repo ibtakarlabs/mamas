@@ -30,7 +30,7 @@ export default function FeaturedSpecials() {
     <section className="py-10 bg-diner-white border-y-4 border-charcoal">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-charcoal mb-2 uppercase tracking-tight">
+          <h2 className="font-heading text-5xl md:text-6xl font-bold text-charcoal mb-2 uppercase tracking-tight">
             ★ Fan Favorites ★
           </h2>
           <div className="flex items-center justify-center gap-2 mb-3">
@@ -38,7 +38,7 @@ export default function FeaturedSpecials() {
             <div className="h-1 w-8 bg-charcoal"></div>
             <div className="h-1 w-12 bg-tomato-red"></div>
           </div>
-          <p className="text-sm text-charcoal/70 uppercase tracking-wide">Our most-loved dishes</p>
+          <p className="text-lg text-charcoal/70 uppercase tracking-wide">Our most-loved dishes</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -48,22 +48,22 @@ export default function FeaturedSpecials() {
               className="bg-warm-cream border-3 border-charcoal p-5 shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1"
             >
               <div className="flex justify-between items-start mb-2">
-                <h3 className="font-heading text-xl md:text-2xl font-bold text-charcoal flex-1 uppercase">
+                <h3 className="font-heading text-3xl md:text-4xl font-bold text-charcoal flex-1 uppercase">
                   {special.name}
                 </h3>
-                <span className="bg-tomato-red text-diner-white px-3 py-1 text-xs font-bold ml-3 uppercase border-2 border-charcoal">
+                <span className="bg-tomato-red text-diner-white px-3 py-1 text-base font-bold ml-3 uppercase border-2 border-charcoal">
                   {special.tag}
                 </span>
               </div>
               <div className="h-0.5 w-full bg-charcoal/20 mb-3"></div>
-              <p className="text-charcoal/80 mb-3 text-xs md:text-sm leading-relaxed">{special.description}</p>
-              <p className="font-heading text-xl font-bold text-tomato-red">{special.price}</p>
+              <p className="text-charcoal/80 mb-3 text-base md:text-lg leading-relaxed">{special.description}</p>
+              <p className="font-heading text-2xl font-bold text-tomato-red">{special.price}</p>
             </div>
           ))}
         </div>
 
         <div className="text-center mt-8 bg-charcoal text-diner-white py-2 px-4">
-          <p className="text-xs uppercase tracking-wider">
+          <p className="text-base uppercase tracking-wider">
             Substitute chips for fries • Gluten-free options available
           </p>
         </div>
