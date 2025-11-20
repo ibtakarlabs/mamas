@@ -13,7 +13,9 @@ export default function Hero() {
               alt="Mama's Wraps"
               fill
               className="object-cover"
+              quality={85}
               priority
+              sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
 
@@ -24,7 +26,9 @@ export default function Hero() {
               alt="Mama's Food"
               fill
               className="object-cover"
+              quality={85}
               priority
+              sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
 
@@ -35,7 +39,9 @@ export default function Hero() {
               alt="Mama's Takeout"
               fill
               className="object-cover"
+              quality={85}
               priority
+              sizes="(max-width: 768px) 100vw, 33vw"
             />
           </div>
         </div>
@@ -50,7 +56,9 @@ export default function Hero() {
                 width={600}
                 height={180}
                 className="mx-auto w-full max-w-md md:max-w-2xl drop-shadow-2xl"
+                quality={90}
                 priority
+                sizes="(max-width: 768px) 90vw, 50vw"
               />
             </div>
 
