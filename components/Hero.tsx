@@ -22,7 +22,7 @@ export default function Hero() {
           {/* Center Image - Main */}
           <div className="relative h-[250px] md:h-[500px] overflow-hidden border-b-2 md:border-b-0 md:border-r-2 border-charcoal">
             <Image
-              src="/images/hori-food.jpeg"
+              src="/images/hori-pic.jpeg"
               alt="Mama's Food"
               fill
               className="object-cover"
